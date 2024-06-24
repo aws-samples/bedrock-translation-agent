@@ -1,4 +1,4 @@
-# Bedrock Translation Agent: Multi-Model agentic & reflective translation workflow in Aamzon Bedrock
+# Multi-Model agentic & reflective translation workflow in Aamzon Bedrock
 
 > Inspired by [andrewyng/translation-agent](https://github.com/andrewyng/translation-agent)，enabling it run in [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 
@@ -6,6 +6,9 @@ A reflection agentic workflow for machine translation. The main step are:
 1. Prompt an LLM to translation a text from `source_lang` to `target_lang`
 2. Have the LLM reflect on the translation to come up with constructive suggestions for improving it;
 3. Use the suggestions to improve the translation.
+
+## Key features
+With the support of Amazon Bedrock for multiple models, different models can be used in different steps to fully leverage the advantages of LLM.
 
 ## Getting Started
 
