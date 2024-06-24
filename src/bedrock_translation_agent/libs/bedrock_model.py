@@ -7,6 +7,8 @@ class BedrockModel(Enum):
     Amazon Bedrock Model IDs, see: https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html#model-ids-arns
     '''
 
+    DEFAULT_MODEL = "anthropic.claude-3-sonnet-20240229-v1:0"
+
     # Amazon Titian
     AMAZON_TITAN_TEXT_G1_EXPRESS = "amazon.titan-text-express-v1"
     AMAZON_TITAN_TEXT_G1_LITE = "amazon.titan-text-lite-v1"
@@ -20,6 +22,8 @@ class BedrockModel(Enum):
     CLAUDE_3_HAIKU_1_0 = "anthropic.claude-3-haiku-20240307-v1:0"
     CLAUDE_3_SONNET_1_0 = "anthropic.claude-3-sonnet-20240229-v1:0"
     CLAUDE_3_OPUS_1_0 = "anthropic.claude-3-opus-20240229-v1:0"
+
+    CLAUDE_3_5_SONNET_1_0 = "anthropic.claude-3-5-sonnet-20240620-v1:0"
 
     # AI21 Labs Jurassic
     AI21_J2_MID_1_X = "ai21.j2-mid-v1"

@@ -12,7 +12,7 @@ class Bedrock:
         self,
         prompt: str,
         system_msg: str = "You are a helpful assistant.",
-        model: BedrockModel = BedrockModel.CLAUDE_3_SONNET_1_0,
+        model: BedrockModel = BedrockModel.DEFAULT_MODEL,
         temperature: float = 0.3
     ) -> str:
 
