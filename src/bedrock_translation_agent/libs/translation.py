@@ -29,13 +29,13 @@ class Translation:
 
     def set_models(
         self,
-        init_translation_model: BedrockModel = BedrockModel.CLAUDE_3_SONNET_1_0,
-        reflect_on_translation_model: BedrockModel = BedrockModel.CLAUDE_3_SONNET_1_0,
-        improve_translation_model: BedrockModel = BedrockModel.CLAUDE_3_SONNET_1_0
+        init_model: BedrockModel = BedrockModel.DEFAULT_MODEL,
+        reflect_on_model: BedrockModel = BedrockModel.DEFAULT_MODEL,
+        improve_model: BedrockModel = BedrockModel.DEFAULT_MODEL
     ):
-        self.__init_model = init_translation_model
-        self.__reflect_on_model = reflect_on_translation_model
-        self.__improve_model = improve_translation_model
+        self.__init_model = init_model
+        self.__reflect_on_model = reflect_on_model
+        self.__improve_model = improve_model
 
         return self
 

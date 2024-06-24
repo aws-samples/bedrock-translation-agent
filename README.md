@@ -58,9 +58,9 @@ translation = Translation(
     target_lang="Chinese",
     country="China"
 ).set_models(
-    init_translation_model=BedrockModel.CLAUDE_3_SONNET_1_0,
-    reflect_on_translation_model=BedrockModel.CLAUDE_3_SONNET_1_0,
-    improve_translation_model=BedrockModel.CLAUDE_3_SONNET_1_0,
+    init_model=BedrockModel.CLAUDE_3_SONNET_1_0,
+    reflect_on_model=BedrockModel.CLAUDE_3_SONNET_1_0,
+    improve_model=BedrockModel.CLAUDE_3_SONNET_1_0,
 )
 
 print(translation.translate())

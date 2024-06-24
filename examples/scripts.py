@@ -42,7 +42,7 @@ translation = Translation(
     target_lang="Chinese",
     country="China"
 ).set_models(
-    init_translation_model=BedrockModel.META_LLAMA_3_70B_INSTRUCT,
-    improve_translation_model=BedrockModel.CLAUDE_3_SONNET_1_0,
+    init_model=BedrockModel.META_LLAMA_3_70B_INSTRUCT,
+    improve_model=BedrockModel.CLAUDE_3_SONNET_1_0,
 )
 print(translation.translate())
