@@ -45,9 +45,9 @@ translation = Translation(
 print(translation.translate())
 ```
 
-- Using different models for each stage:
+- Using different models for each step:
 
->  The models supported in Amazon Bedrock are defined in`libs/bedrock_models.py`, and you can use the method `Translation.set_models` to declare the model for each stage of translation.
+>  The models supported in Amazon Bedrock are defined in`libs/bedrock_models.py`, and you can use the method `Translation.set_models` to declare the model for each step of translation.
 
 **Note**: The code uses system_prompt and user_prompt. If the model you specified does not support system prompt, you need to modify the API parameters in `libs/bedrock.py`
 
