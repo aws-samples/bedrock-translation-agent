@@ -7,7 +7,8 @@ class Bedrock:
 
     def __init__(self, region="us-east-1") -> None:
         self._client = boto3.client("bedrock-runtime", region_name=region)
-
+    
+    #As the number of models supported by bedlock increases, users can update the model list in bedlock_model
     def invoke_model(
         self,
         prompt: str,
