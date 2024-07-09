@@ -1,7 +1,6 @@
 from enum import Enum, unique
 
 
-@unique
 class BedrockModel(Enum):
     '''
     Amazon Bedrock Model IDs, see: https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html#model-ids-arns
