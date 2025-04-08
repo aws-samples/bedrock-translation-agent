@@ -1,4 +1,4 @@
-# Multi-Model agentic & reflective translation workflow in Aamzon Bedrock
+# Multi-Model agentic & reflective translation workflow in Amazon Bedrock
 
 > Inspired by [andrewyng/translation-agent](https://github.com/andrewyng/translation-agent)，enabling it run in [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 
